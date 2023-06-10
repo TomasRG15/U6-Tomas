@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Informacion</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="form-container">
+    <h1>Doctores</h1>
+
+    <!-- Formulario para doctores -->
+    <h2>Formulario de Doctores</h2>
+  <form id="doctorForm">
+    <div class="form-group">
+    <label for="nombreDoctor">Nombre:</label>
+    <input type="text" id="nombreDoctor" required>
+  </div>
+
+  <div class="form-group">  
+  <label for="apellidoDoctor">Apellido:</label>
+    <input type="text" id="apellidoDoctor" required>
+  </div>
+    <div  class="form-group">
+    <label for="cedulaDoctor">Número de Cédula:</label>
+    <input type="text" id="cedulaDoctor" required>
+  </div>
+
+  <div class="form-group">
+  <label for="especialidadDoctor">Especialidad:</label>
+    <select id="especialidadDoctor" required>
+      <option value="Medicina general">Medicina general</option>
+      <option value="Cardiología">Cardiología</option>
+      <option value="Medicina interna">Medicina interna</option>
+      <option value="Dermatología">Dermatología</option>
+      <option value="Rehabilitación física">Rehabilitación física</option>
+      <option value="Psicología">Psicología</option>
+      <option value="Odontología">Odontología</option>
+      <option value="Radiología">Radiología</option>
+    </select>
+  </div>  
+
+  <div class="form-group">
+  <label for="consultorioDoctor">Consultorio:</label>
+    <input type="text" id="consultorioDoctor" required>
+  </div>  
+
+  <div class="form-group">
+  <label for="correoDoctor">Correo de contacto:</label>
+    <input type="email" id="correoDoctor" required>
+  </div>  
+
+    <button type="submit">Guardar</button>
+  </form>
+</div>
+  <script src="agregardoctores.js"></script>
+</body>
+</html>

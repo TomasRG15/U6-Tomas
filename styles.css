@@ -1,0 +1,21 @@
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+  }
+  h1, h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  .form-container {
+    width: 300px;
+  }
+
+  .form-group {
+    margin-bottom: 10px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
