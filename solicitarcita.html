@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Informacion</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Agenda tu cita</h1>
+    <form action="/solicitar_cita" method="post">
+        <label for="doc_paciente">Número documento paciente:</label>
+        <input type="text" id="doc_paciente" name="doc_paciente" required>   
+        <label for="especialidad">Especialidad:</label>
+        <select id="especialidad" name="especialidad" required>
+    <option value="pediatria">Pediatría</option>
+    <option value="cardiologia">Cardiología</option>
+    <option value="dermatologia">Dermatología</option>
+        <!-- Otras especialidades -->
+        </select>
+
+        <label for="doc_doctor">Número documento doctor:</label>
+        <input type="text" id="doc_doctor" name="doc_doctor" required>
+    
+        <input type="submit" value="Solicitar cita">
+    </form>
+    <script src="solicitarcitas.js"></script>
+</body>
+</html>
